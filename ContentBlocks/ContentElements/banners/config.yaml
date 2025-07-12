@@ -1,0 +1,9 @@
+name: lehagon/banners
+typeName: lehagon_banners
+group: default
+prefixFields: true
+prefixType: full
+fields:
+  -
+    identifier: header
+    useExistingField: true
