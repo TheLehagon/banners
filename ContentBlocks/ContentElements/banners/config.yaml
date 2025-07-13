@@ -1,9 +1,46 @@
 name: lehagon/banners
 typeName: lehagon_banners
 group: default
-prefixFields: true
+prefixFields: false
 prefixType: full
 fields:
-  -
-    identifier: header
-    useExistingField: true
+  - identifier: bodytext
+    type: Textarea
+    enableRichtext: true
+    richtextConfiguration: full
+  - identifier: text
+    type: Palette
+    label: Text
+    description: Buttonverlinkung
+    fields:
+      - identifier: url
+        type: Link
+        allowedTypes:
+          - page
+          - url
+          - file
+      - identifier: text
+        type: Text
+  - identifier: color
+    type: Palette
+    label: Farbscheinstellungen
+    description: Anpassen der Farben für den Hintergrund und Text
+    fields:
+      - identifier: background_color
+        type: Color
+        autocomplete: true
+        default: '#0000FF'
+        valuePicker:
+          items:
+            - [ 'Red', '#FF0000' ]
+            - [ 'Green', '#008000' ]
+            - [ 'Blue', '#0000FF' ]
+      - identifier: text_color
+        type: Color
+        autocomplete: true
+        default: '#0000FF'
+        valuePicker:
+          items:
+            - [ 'Red', '#FF0000' ]
+            - [ 'Green', '#008000' ]
+            - [ 'Blue', '#0000FF' ]
