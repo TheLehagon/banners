@@ -15,6 +15,7 @@
 ### Installing
 
 * composer req lehagon/banners:dev-main
+* composer exec typo3 extension:setup
 
 ## Authors
 
