@@ -14,7 +14,7 @@
                             <span class="button-text">{data.text}</span>
                         </f:then>
                         <f:else>
-                            <span class="button-text">{f:translate(key: 'text.default', extensionName: 'banners')}</span>
+                            <span class="button-text"><f:translate key="{cb:languagePath(name: 'lehagon/banners')}:text.default"/></span>
                         </f:else>
                     </f:if>
                 </f:link.typolink>
