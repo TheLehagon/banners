@@ -3,20 +3,22 @@
     <div class="banner-wrap card-body card" style="background: {data.background_color};">
         <div class="container">
             <f:if condition="{data.bodytext}">
-                <f:format.html>{data.bodytext -> f:format.nl2br()}</f:format.html>
+                <div class="text-wrap" style="color: {data.text_color};">
+                    <f:format.html>{data.bodytext -> f:format.nl2br()}</f:format.html>
+                </div>
             </f:if>
             <f:if condition="{data.url}">
                 <f:link.typolink parameter="{data.url}" class="btn btn-info">
                     <f:if condition="{data.text}">
                         <f:then>
-                            <span class="button-text" style="color: {data.text_color};">{data.text}</span>
+                            <span class="button-text">{data.text}</span>
                         </f:then>
                         <f:else>
-                            <span class="button-text" style="color: {data.text_color};">mehr erfahren</span>
+                            <span class="button-text">{f:translate(key: 'text.default', extensionName: 'banners')}</span>
                         </f:else>
                     </f:if>
                 </f:link.typolink>
             </f:if>
         </div>
     </div>
-
+</html>

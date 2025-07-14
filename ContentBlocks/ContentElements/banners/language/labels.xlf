@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-	<file datatype="plaintext" original="labels.xlf" source-language="en" date="2025-07-12T10:21:52+00:00" product-name="lehagon/banners">
+	<file datatype="plaintext" original="labels.xlf" source-language="en" date="2025-07-14T10:07:51+00:00" product-name="lehagon/banners">
 		<header/>
 		<body>
 			<trans-unit id="title">
@@ -8,6 +8,36 @@
 			</trans-unit>
 			<trans-unit id="description">
 				<source>Description for Content Element lehagon/banners</source>
+			</trans-unit>
+			<trans-unit id="bodytext.label">
+				<source>bodytext</source>
+			</trans-unit>
+			<trans-unit id="palettes.text.label">
+				<source>Bodytext</source>
+			</trans-unit>
+			<trans-unit id="palettes.text.description">
+				<source>Buttonverlinkung</source>
+			</trans-unit>
+			<trans-unit id="url.label">
+				<source>url</source>
+			</trans-unit>
+			<trans-unit id="text.label">
+				<source>Linktext</source>
+			</trans-unit>
+			<trans-unit id="text.default">
+				<source>read more</source>
+			</trans-unit>
+			<trans-unit id="palettes.color.label">
+				<source>Farbscheinstellungen</source>
+			</trans-unit>
+			<trans-unit id="palettes.color.description">
+				<source>Anpassen der Farben für den Hintergrund und Text</source>
+			</trans-unit>
+			<trans-unit id="background_color.label">
+				<source>background_color</source>
+			</trans-unit>
+			<trans-unit id="text_color.label">
+				<source>text_color</source>
 			</trans-unit>
 		</body>
 	</file>
