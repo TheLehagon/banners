@@ -1,12 +1,14 @@
 # lehagon/banners
 
-* An extension to add Banners to the TYPO3 System under the following criteria:
+### Description
 
- - Extension installs cleanly on TYPO3 13 with Introduction Package
- - Backend interface allows easy content management
- - Responsive design across all devices
- - Clean, maintainable code following TYPO3 conventions
- - Extension committed to GitHub repository
+An extension to add Banners to the TYPO3 System under the following criteria:
+
+* Extension installs cleanly on TYPO3 13 with Introduction Package
+* Backend interface allows easy content management
+* Responsive design across all devices
+* Clean, maintainable code following TYPO3 conventions
+* Extension committed to GitHub repository
 
 ### Dependencies
 
